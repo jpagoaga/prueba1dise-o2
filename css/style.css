@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800|Roboto:300,400,500,700&display=swap');
+body{
+	font-family: 'roboto', sans-serif;
+	font-size: 16px;
+	color: #898989;
+	font-weight: 400;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-default{
+	background-color: #fff;
+}
+
+.btn-blanco{
+	color: #fff;
+	background-color: transparent;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: solid 2px #fff;
+	padding: 10px 25px;
+}
+
+.btn-verde{
+	color: #fff;
+	background-color: #72b529;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 25px;
+	border: none;
+}
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 15% 0;
+}
+
+#hero span{
+	display: block;
+	color: #72b529;
+}
+
+#hero h1{
+	font-family: 'montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#hero p{
+	display: block;
+	color: #fff;
+	font-size: 24px;
+	margin:  0 40% 0 0;
+}
+
+
+.section{
+	padding: 80px 0;
+}
+
+.title{
+	font-family: 'montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #333e50;
+	text-align: center;
+}
+
+.subtitle{
+	font-weight: 300;
+	margin-bottom: 40px;
+	font-size: 24px;
+	color: #333e50;
+	text-align: center;
+}
+
+.texto{
+	font-size: 17px;
+	color: #333e50;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+#business{
+	background-image: url("../img/corporate-woman.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: 550px;
+	padding: 8% 0;
+}
+
+#business span{
+	color: #72b529;
+}
+
+#business h3{
+	color: #222;
+	font-family: 'montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#results h3{
+	color: #222;
+	font-family: 'montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.icons{
+	font-size: 30px;
+	color: #72b529;
+}
+
+#more{
+	padding: 0 0;
+}
+
+#more h1{
+	font-family: 'montserrat', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 30px;
+}
+
+#more p{
+	color: #fff;
+	font-size: 20px;
+	margin: 0 30px 0 30px;
+}
+
+
+#more .fondo-negro{
+	background-color: #222;
+	padding: 7% 0;
+}
+
+#more .fondo-claro{
+	background-color: #76D446;
+	padding: 7% 0;
+}
+
+#more .fondo-verde{
+	background-color: #72b529;
+	padding: 7% 0;
+}
+
+#results{
+	margin: 5% 0;
+}
+
+#results h1{
+	text-align: left;
+}
+
+#results p{
+	margin: 20px 50px 0 0;
+}
+
+#logos{
+	background-color: #F3F3F3;
+}
+
+#quote{
+	background-image: url("../img/bg-testi.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 20% 0;
+}
+#quote p{
+	font-size: 28px;
+}
+.iconverde{
+	font-size: 30px;
+	color: #72b529;
+}
+
+#subscribe{
+	background-color: #72b529;
+	color: #fff;
+}
+
+footer{
+	background-color: #3d3f3e;
+	color: #fff;
+	padding: 2% 0;
+	text-align: center;
+}
